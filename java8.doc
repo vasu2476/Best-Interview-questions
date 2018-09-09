@@ -1,0 +1,3 @@
+forEach() method in Iterable interface
+Whenever we need to traverse through a Collection, we need to create an Iterator whose whole purpose is to iterate over 
+and then we have business logic in a loop for each of the elements in the Collection. We might get ConcurrentModificationException if iterator is not used properly.
